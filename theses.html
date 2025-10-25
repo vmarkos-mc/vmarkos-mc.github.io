@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>V. Markos - Theses Proposals</title>
+        <link rel="stylesheet" href="./css/tufte.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="./">Vassilis Markos @ Mediterranean College</a>
+            </div>
+            <nav>
+                <a href="./">Home</a>
+				<a href="./contact.html">Contact</a>
+				<a href="./theses.html">Theses</a>
+                <a href="./archive.html">News</a>
+            </nav>
+        </header>
+
+        <main role="main">
+            <h1>Theses Proposals</h1>
+			<section>
+	            <h2 id="explainable-artificial-intelligence">Explainable Artificial Intelligence</h2>
+<h3 id="brief-introduction">Brief Introduction</h3>
+<p>As Artificial Intelligence (AI) systems, particularly those based on
+complex Deep Learning models, move from research labs into high-stakes,
+real-world applications — such as healthcare diagnostics, financial
+decision-making, and autonomous systems — a profound challenge
+persists: the “black box” problem. These powerful models often deliver
+highly accurate predictions, but without a clear, human-understandable
+explanation of how they reached their conclusions.</p>
+<p>Humans cannot be expected to adopt and rely on AI-driven decisions in
+critical domains if they cannot scrutinize the underlying reasoning. XAI
+fosters user trust and facilitates adoption by transforming opaque
+outputs into understandable justifications. When an AI system makes an
+error or produces a biased outcome — for example, unfairly rejecting a
+loan application or misdiagnosing a patient — we must be able to trace
+the decision back to its root cause. XAI is the bedrock of
+accountability and is crucial for detecting and mitigating unintended
+bias and other ethical misalignments in the model or data.</p>
+<p>Global regulatory frameworks, such as the EU’s General Data Protection
+Regulation (GDPR) and the impending AI Act, increasingly mandate a
+"right to explanation" for decisions significantly affecting
+individuals. Research in XAI directly addresses these emerging legal and
+compliance requirements. Moreover, explainability is an indispensable
+tool for developers and researchers, since by understanding why a model
+fails, we gain the insights needed to debug, refine, and ultimately
+improve its performance and robustness.</p>
+<p>Despite significant advancements, XAI is far from a solved problem. The
+push toward increasingly complex models (like Generative AI and very
+deep neural networks) continuously raises new research questions, making
+this a vibrant and highly relevant area for thesis work:</p>
+<ol type="1">
+<li><p>Complexity vs. Interpretability Trade-Off: While current methods
+provide local explanations (e.g., for a single prediction),
+achieving global interpretability for massive, non-linear models
+remains challenging. Research is needed on how to build models that
+are "explainable by design" without sacrificing state-of-the-art
+performance.</p></li>
+<li><p>User-Centric Explanations: A data scientist’s explanation (e.g.,
+Shapley values) differs vastly from what a clinician or a bank
+manager needs. Future research must focus on human-centered XAI,
+developing methods to generate context-aware, actionable, and
+contrastive explanations tailored to specific end-users.</p></li>
+<li><p>Causal Explanations: Most XAI techniques show correlation (which
+input feature was important), but not causation. Developing methods
+that can distinguish between mere feature importance and true causal
+influence on a decision is a crucial next step.</p></li>
+</ol>
+<p><strong>Keywords:</strong> transparency, faithfulness, explainability, fairness.</p>
+<h3 id="example-thesis-topics">Example Thesis Topics</h3>
+<p>A non–exhaustive list of suggested topics in the area of XAI, including
+topics on diversity and inclusion in CS applications.</p>
+<p><strong>Large Language Model Bias Tracker.</strong> Mostly a software development thesis, with the focus being on exploring
+how an interface facilitating the collection and organisation of LLM
+hallucinations and other bias–related pitfalls. The major aim is to
+deliver a function piece of software, preferably available online, to
+help users report inappropriate LLM responses, ultimately facilitating
+the creation and organisation of such a dataset, to be used in
+subsequent / your research.</p>
+<p><strong>LLM Debugger.</strong> It is a common issue for LLMs to hallucinate and provide seemingly
+correct but factually erroneous responses. This could be, at least
+partially, remedied, by ensuring that LLMs actually conform to
+common–sense reasoning. This, in turn, can be achieved by utilising a
+formal reasoner, e.g., utilising argumentation framework semantics, in
+order to verify the logical validity of LLM responses.</p>
+<p><strong>AI Ranking Diversification.</strong> A wide variety, if not most, of AI applications are somehow related to
+properly ranking options, e.g., in recommendation systems. In spite of
+their apparent effectiveness in capturing user preferences, modern deep
+architectures tend to create user echo chambers, providing users with
+the erroneous impression that their opinions, thoughts and preferences
+in general are more widespread than they might actually be. To that end,
+appropriately diversifying rankings while respecting user preferences is
+a natural desideratum in most real–world applications. Indicative areas
+of application might include but not restrict to diversifying content
+suggestions, e.g., music, movies, and so on, on relevant apps, tourist
+and visitor assistance etc. Explaining any diversification decisions is
+also an additional goal one might pursue in this case.</p>
+<p><strong>Review Of XAI Testing Methods.</strong> XAI has been around for quite a long time, compared to other relevant AI
+technologies, however, consistent testing guidelines in terms of an AI
+system’s explainability have not yet been clearly shaped. To that end,
+reviewing related literature with the aim of creating a taxonomy of best
+practices implemented so far and spotting any related gaps.</p>
+<h2 id="humanmachine-interaction">Human–Machine Interaction</h2>
+<h3 id="brief-introduction-1">Brief Introduction</h3>
+<p>Human-Machine Interaction (HMI) is the critical discipline that designs
+the communication link between people and technology. As machines become
+more intelligent, autonomous, and integrated into our daily lives and
+critical infrastructure, the focus of HMI is rapidly shifting from mere
+usability to deep, context-aware, and ethical engagement. Key challenges
+in this are briefly summarised below:</p>
+<ul>
+<li><strong>System-State Fidelity:</strong> The HMI must always reflect the true, current state of the machine. Ethical design requires interfaces to be honest, clear, and prioritize critical data to prevent human error and ensure safety in high-stakes environments (e.g., medical devices, industrial control).</li>
+<li><strong>Privacy and Security:</strong> Advanced HMIs collect vast amounts of intimate data (biometrics, attention span, emotional state). Mandate: Design must be Privacy-by-Design, with transparent data policies, clear user consent mechanisms, and robust encryption to prevent unauthorized access to sensitive personal and operational data.</li>
+<li><strong>Inclusivity and Accessibility:</strong> Interfaces must be usable by people with a wide range of abilities, backgrounds, and skill levels. Mandate: Design for diversity, ensuring features like voice commands and adaptable layouts accommodate all users, fostering an equitable workforce.</li>
+<li><strong>Cognitive Load &amp; Error Prevention:</strong> Overly complex or cluttered interfaces lead to stress and mistakes. Mandate: HMI design must minimize cognitive load, use clear visual hierarchy (e.g., grayscale for normal, color for alert), and embed Preventive Interaction Logic to make it difficult for the user to make a critical error.</li>
+</ul>
+<p><strong>Keywords:</strong> inclusion, error prevention, privacy, faithfulness.</p>
+<h3 id="indicative-thesis-topics">Indicative Thesis Topics</h3>
+<p>A non–exhaustive list of thesis topics.</p>
+<p><strong>Marginalised Groups And Modern Technologies.</strong> While AI is more than prevalent in our everyday lives, it is doubtful
+how much such technologies are accessible by marginalised groups. To
+that end, investigating the extend to which legislative or corporate
+action is actually undertaken, either in terms of appropriate guidelines
+or technical solutions. Theses in this area might include a review of
+the area accompanied by an empirical study, and / or some relevant
+implementation.</p>
+<p><strong>Ensuring Fidelity In Human–LLM Interaction.</strong> While LLMs are often (unintentionally?) presented as the end of a long
+road of AI research, the remain black–box models which we only roughly
+understand. To that end, the development of HMI methodologies that
+maximise transparency and system–state fidelity, e.g., by having the
+LLM interact with the user dialectically to expose it internal line of
+thought, or, in case of semi–expert users, parts of its internal
+architecture, can be considered.</p>
+<h2 id="computer-science-education">Computer Science Education</h2>
+<h3 id="brief-introduction-2">Brief Introduction</h3>
+<p>The world stands at an inflection point. The rapid evolution and
+ubiquitous integration of Artificial Intelligence (AI) into every facet
+of life—from medicine and finance to creative arts and daily
+communication—is not just a technological shift; it is a fundamental
+transformation of society. In this new era, Computer Science (CS)
+literacy is no longer an optional specialization for a few; it is a
+foundational skill for all, akin to reading and writing. AI
+applications, such as large language models and generative tools, are
+becoming pervasive, automating routine tasks and creating new
+possibilities. However, to thrive in this environment, one must move
+beyond being a mere user of these technologies to becoming a critical
+consumer and responsible shaper.</p>
+<p>We must equip students not just to work with AI, but to truly
+understand, shape, and advance it. To pursue rigorous study in Computer
+Science is to choose to be an active participant in building the future,
+ensuring that technology serves humanity, rather than the reverse. It is
+a commitment to not just consuming the digital world, but to truly
+understanding and creating it for the betterment of society.</p>
+<p><strong>Keywords:</strong> AI, new technologies, inclusion, technological literacy</p>
+<h3 id="indicative-thesis-topics-1">Indicative Thesis Topics</h3>
+<p>A non–exhaustive list of indicative thesis topics and research areas:</p>
+<p><strong>School Curricula And AI.</strong> How and to what extend do school curricula take into account new
+advances in technology, in particular in AI and related fields? Do they
+adopt a critical adoption stance or do they reject the extended use of
+such tools? A thesis in that area would review any such practices
+integrated in school curricula (or their absence), empirically
+validating any such results, e.g., by investigating actual educational
+practices.</p>
+<p><strong>AI And Educational Practice.</strong> How do tutors and students utilise AI in / for their classes? Are they
+just passive consumers of AI products or do they adopt a more critical
+and wholesome stance to them? A thesis focused on that field should
+first explore any relevant data from related literature, regarding AI
+integration in primary, secondary, or tertiary level education, and then
+empirically explore such practices.</p>
+<p><strong>Serious Games For Education.</strong> Play is one of the most common human activities, with a strong
+correlation to learning. Designing a serious game for CSE purposes as
+part of a thesis should include:</p>
+<ol type="1">
+<li><p>the game design itself;</p></li>
+<li><p>playtesting, at least by the developer and a small sample of
+players;</p></li>
+<li><p>actual testing and deployment in a realistic setting, with any
+corresponding empirical validation.</p></li>
+</ol>
+<h2 id="peertopeer">Peer–To–Peer</h2>
+<h3 id="brief-introduction-3">Brief Introduction</h3>
+<p>Peer-to-Peer (P2P) technology represents a fundamental shift in network
+architecture, moving away from the traditional model where centralized
+servers manage all data and communication. At its core, P2P describes a
+decentralized network where every participant, or peer, is equally
+privileged and shares the same responsibilities. There is no single
+central server; instead, control and resources are distributed across
+all the nodes.</p>
+<p>In a P2P system, every connected device acts as both a client
+(requesting resources) and a server (providing resources) to the other
+peers. This structure allows peers to communicate and exchange data
+directly, without relying on an intermediary. This direct interaction
+gives P2P networks their signature characteristics: they are highly
+robust and resilient because there is no single point of failure—if
+one peer goes offline, the rest of the network continues to function.
+They are also inherently scalable, as every new peer joining the network
+adds capacity, not just demand.</p>
+<p>This powerful, decentralized model has been applied across various
+fields. Perhaps the most famous application is content distribution,
+exemplified by protocols like BitTorrent, where files are broken into
+pieces and downloaded from many users simultaneously, making the process
+fast and efficient. Crucially, P2P is the foundational technology for
+blockchain systems like Bitcoin and Ethereum. In this context, the peers
+(nodes) maintain a shared, verified copy of the digital ledger, ensuring
+transparency and security without the need for a central bank or
+authority. Whether it’s for file sharing, secure finance, or even direct
+communication like VoIP, P2P technology leverages the collective
+resources of its participants to create a more efficient, resilient, and
+autonomous digital ecosystem.</p>
+<p><strong>Keywords:</strong> P2P, collaboration, distributed networks.</p>
+<h3 id="indicative-thesis-topics-2">Indicative Thesis Topics</h3>
+<p>Virtually anything that comprises of P2P plus a collaboration aspect,
+but, a non–exhaustive list follows:</p>
+<p><strong>P2P Mesh–Networking.</strong> This research aims to design and implement a novel Peer-to-Peer (P2P)
+mesh-network protocol specifically optimized for environments with
+intermittent connectivity and high node mobility, such as disaster
+zones. The thesis would focus on developing an adaptive routing
+mechanism that dynamically manages link stability, power consumption,
+and data redundancy across mobile, battery-powered devices. Key research
+questions include: How can an unstructured P2P overlay be optimally
+mapped onto a physical wireless mesh topology to ensure reliable data
+delivery? The final output would be a validated architectural blueprint
+and a simulated or prototype implementation demonstrating improved
+resilience and low-latency communication compared to existing ad-hoc or
+cellular solutions when centralized infrastructure is unavailable.</p>
+<p><strong>P2P Content Editor(s).</strong> This project proposes the development of a fully decentralized,
+real-time collaborative editor for documents, spreadsheets, or
+presentations that operates entirely on a P2P network, eliminating the
+need for a central server. The core challenge involves implementing a
+Conflict-Free Replicated Data Type (CRDT) or an advanced Operational
+Transformation (OT) algorithm to guarantee strong consistency—that all
+peer replicas of the document eventually converge to the same
+state—even when peers join, leave, and work offline concurrently. The
+thesis will evaluate the performance, scalability, and bandwidth
+overhead of the proposed consistency model in a dynamic P2P environment,
+aiming to demonstrate a secure, censorship-resistant alternative to
+existing centralized collaborative tools.</p>
+<p>In any of the above cases, feel free to reach out to me with any ideas of your own on the above research areas!</p>
+			</section>
+        </main>
+
+        <footer>
+            Site proudly generated by
+			<a href="http://jaspervdj.be/hakyll">Hakyll</a>, styled with <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a>.
+        </footer>
+    </body>
+</html>
